@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_metas",
+  "info": {
+    "name": "Site Meta"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
