@@ -1,8 +1,8 @@
 {
-  "name": "strapi-mongo",
+  "name": "strapi-monogo-rtl",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi blog starter with MongoDB and Cloudinary",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -32,9 +32,23 @@
     "strapi-provider-upload-cloudinary": "^3.1.7",
     "strapi-utils": "3.1.6"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "Jalal Maskoun <jimmy002020@gmail.com>",
+  "keywords": [
+    "strapi",
+    "gatsby",
+    "strapi-cms",
+    "strapi-starter",
+    "strapi-rtl",
+    "strapi-arabic",
+    "gatsby-strapi",
+    "headless-cms",
+    "Heroku",
+    "jamstack",
+    "starter-template",
+    "ckeditor5",
+    "blog",
+    "react"
+  ],
   "strapi": {
     "uuid": "11ffc0f3-3f44-445d-b61c-f99ce5759363"
   },
@@ -42,5 +56,12 @@
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jalal246/strapi-monogo-rtl"
+  },
+  "bugs": {
+    "url": "https://github.com/jalal246/strapi-monogo-rtl/issues"
+  }
 }
